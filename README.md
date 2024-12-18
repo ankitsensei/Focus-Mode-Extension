@@ -37,7 +37,7 @@ Enter a website URL (e.g., youtube.com) and click Add Site.
 Visit the website you added, and it will be blocked.
 To remove a site from the blocklist, click Remove next to the site name.
 To clear all blocked sites, click Clear All.
-
+```
 
 ### 🔧 Tech Stack
 HTML: Structure of the popup UI.
