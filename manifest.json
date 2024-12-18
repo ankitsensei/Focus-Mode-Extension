@@ -4,14 +4,14 @@
     "version": "1.0",
     "description": "Block distracting websites to help you stay focused.",
     "icons": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "16": "focus.jpg",
+        "48": "focus.jpg",
+        "128": "focus.jpg"
     },
     "permissions": ["scripting", "storage", "tabs"],
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "icon48.png"
+        "default_icon": "focus.jpg"
     },
     "background": {
         "service_worker": "background.js"
