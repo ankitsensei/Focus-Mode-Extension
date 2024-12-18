@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Focus Mode</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Focus Mode</h1> 
     <input type="text" id="site-input" placeholder="Enter site to block (e.g., youtube.com)" />
     <button id="add-site">Add Site</button> 
-    <h2>Blocked Sites</h2>
-    <ul id="blocked-sites"></ul>    
+    <div id="blocked-sites-container">
+        <h2>Blocked Sites</h2>
+        <ul id="blocked-sites"></ul>
+    </div>
     <button id="clear-sites">Clear All</button> 
     <script src="popup.js"></script>
 </body>

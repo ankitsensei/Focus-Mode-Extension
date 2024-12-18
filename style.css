@@ -1,10 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    }
+    width:200px;
+    height:300px;
+    background-color: black;
+    color:white;
+}
 
-    h1, h2 {
+h1, h2 {
     text-align: center;
+    color:red;
 }
 
 #site-input {
@@ -17,8 +22,10 @@ button {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
-    color: white;
+    /* color: white; */
     border: none;
+    width:full;
+
     border-radius: 5px;
     cursor: pointer;
 }
@@ -31,20 +38,23 @@ button:hover {
     list-style-type: none;
     padding: 0;
 }
+#blocked-sites-container{
+    margin-block: 10px;
+    border: 2px solid red;
+    border-radius: 6px;
+}
 
 #blocked-sites li {
-    background-color: #f4f4f4;
     padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 #blocked-sites li button {
     background-color: red;
-    color: white;
+    /* color: white; */
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
