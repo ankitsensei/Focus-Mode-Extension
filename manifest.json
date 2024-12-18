@@ -4,10 +4,10 @@
     "manifest_version":2,
     "browser_action":{
         "default_popup": "popup.html",
-        "default_icon": "logo.png"
+        "default_icon": "focus.jpg"
     },
     "icons":{
-        "128": "logo.png"
+        "128": "focus.jpg"
     },
     "permissions":["activeTab"]
 }
