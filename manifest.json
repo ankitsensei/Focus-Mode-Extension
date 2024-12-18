@@ -1,13 +1,26 @@
 {
-    "name":"hehe",
-    "version":"0.0.1",
-    "manifest_version":2,
-    "browser_action":{
+    "manifest_version": 3,
+    "name": "Focus Mode",
+    "version": "1.0",
+    "description": "Block distracting websites to help you stay focused.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": ["scripting", "storage", "tabs"],
+    "action": {
         "default_popup": "popup.html",
-        "default_icon": "focus.jpg"
+        "default_icon": "icon48.png"
     },
-    "icons":{
-        "128": "focus.jpg"
+    "background": {
+        "service_worker": "background.js"
     },
-    "permissions":["activeTab"]
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
 }
+
