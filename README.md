@@ -18,6 +18,9 @@ Focus Mode is a simple yet powerful Chrome extension that helps you stay product
 
 ## 📥 **How to Install and Use Locally**
 
+[![Watch the video](https://img.youtube.com/vi/mtiL2kFWym0/0.jpg)](https://www.youtube.com/watch?v=mtiL2kFWym0)
+
+
 Follow these steps to set up and run Focus Mode on your local machine.
 
 ### **1️⃣ Clone the Repository**
