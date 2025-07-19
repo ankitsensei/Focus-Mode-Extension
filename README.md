@@ -17,7 +17,7 @@ Focus Mode is a simple yet powerful Chrome extension that helps you stay product
 
 
 ## 📥 **How to Install and Use Locally**
-
+### Click to play 👇
 [![Watch the video](https://img.youtube.com/vi/mtiL2kFWym0/0.jpg)](https://www.youtube.com/watch?v=mtiL2kFWym0)
 
 
